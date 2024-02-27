@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .row{
+            display: flex;
+        }
+
+        .col{
+            height:60px;
+            width:60px;
+            border: 6px solid black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 30px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="grid">
+            <div class="row">
+                <div class="col" id="0" onclick="handleClick(this)"></div>
+                <div class="col" id="1" onclick="handleClick(this)"></div>
+                <div class="col" id="2" onclick="handleClick(this)"></div>
+            </div>
+            <div class="row">
+                <div class="col" id="3" onclick="handleClick(this)"></div>
+                <div class="col" id="4" onclick="handleClick(this)"></div>
+                <div class="col" id="5" onclick="handleClick(this)"></div>
+            </div>
+            <div class="row">
+                <div class="col" id="6" onclick="handleClick(this)"></div>
+                <div class="col" id="7" onclick="handleClick(this)"></div>
+                <div class="col" id="8" onclick="handleClick(this)"></div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
